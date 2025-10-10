@@ -1,10 +1,13 @@
 {
-  "title": "Your Book Title",
-  "author": "Your Name",
-  "genre": "non-fiction",
-  "target_words": 80000,
-  "chapter_target": 4000,
-  "style": "engaging-authoritative",
+  "title": "Grip: A Transcendental Aesthetics of the Psyche",
+  "subtitle": "From World Constraints to Fitness Interfaces to Cultural Intelligence",
+  "author": "dtp",
+  "genre": "academic-nonfiction",
+  "target_words": 100000,
+  "chapter_target": 4750,
+  "chapter_count": 21,
+  "style": "rigorous-elegant-sophisticated",
+  "voice": "For the savvy reader familiar with systems science and philosophy—a basis for a wise operating system. Rigorous yet elegant, sophisticated without pretense, occasionally humorous.",
   "publishing": {
     "github_pages": true,
     "hypothesis_comments": true

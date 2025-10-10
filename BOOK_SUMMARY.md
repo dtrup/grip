@@ -1,81 +1,121 @@
-# [Book Title] - Progress Dashboard
+# Grip: A Transcendental Aesthetics of the Psyche - Progress Dashboard
 
-> **Last Updated**: [Date] | **Status**: Project Initialized | **Progress**: 0%
+> **Last Updated**: 2025-10-10 | **Status**: Project Initialized | **Progress**: 0%
 
 ## Project Overview
-- **Title**: [Book Title]
-- **Author**: [Author Name]
-- **Genre**: [Genre]
-- **Target Length**: [Target Words] words
-- **Started**: [Start Date]
-- **Estimated Completion**: [Calculate based on progress]
+- **Title**: Grip: A Transcendental Aesthetics of the Psyche
+- **Subtitle**: From World Constraints to Fitness Interfaces to Cultural Intelligence
+- **Author**: dtp
+- **Genre**: Academic Non-Fiction (Cognitive Science, Philosophy, Information Theory)
+- **Target Length**: 100,000+ words
+- **Target per Chapter**: ~4,750 words
+- **Total Chapters**: 21 (20 chapters + Coda)
+- **Started**: 2025-10-10
+- **Estimated Completion**: TBD
 
 ## Book Ambition
 
 ### Core Thesis
-*What is this book's central argument or purpose?*
-[The main idea this book exists to communicate]
+Agents gain **grip** on a complex world by building, revising, and sharing **compressions under constraints**, and by **expanding** capacity through exploration, redundancy, and social scaffolding. This yields a continuum from **world constraints → embodiment/affordances → payoff-biased perception → schemas/frames → symbols/narratives → institutions/technologies**.
 
-### Reader Transformation  
-*How will readers be different after reading this book?*
-[What change in thinking, behavior, or understanding will occur]
+### Reader Transformation
+Readers will gain a unified framework for understanding how minds (biological and cultural) make complexity actionable—a "wise operating system" for thought that is metaphysically neutral, formally grounded, empirically testable, and practically useful for research, design, therapy, education, policy, and AI.
 
 ### Unique Value
-*What makes this book essential? Why does it need to exist?*
-[What gap this fills or unique perspective it offers]
+**Unification without dogma:** Treats metaphysical positions as compatible lenses. **Compression + Expansion:** Adds exploration, degeneracy, and scaffolding as systematic capacity-builders. **From Payoff to Ought:** Generalizes distortion to value-weighted trade-offs. **Scale-bridging:** One formal spine links neurons, persons, and polities. **Actionable science:** Each chapter closes with measures & tests.
 
 ## Progress Dashboard
 
 ### Overall Stats
-- **Total Chapters**: 0
+- **Total Chapters**: 21 (20 chapters + Coda)
 - **Completed**: 0 (0%)
-- **In Progress**: 0  
-- **Not Started**: 0
-- **Current Word Count**: 0 / [Target] (0%)
+- **In Progress**: 0
+- **Not Started**: 21
+- **Current Word Count**: 0 / 100,000+ (0%)
 
 ### Chapter Progress
-*This section will be populated when you run `/tocToChapters`*
+*This section will be auto-updated by the post-tool-use hook when you run `/tocToChapters`*
 
-| Chapter | Title | Status | Words | Last Updated |
-|---------|-------|--------|-------|-------------|
-| 01 | [Chapter 1 Title] | ⬜ Not Started | 0 | - |
-| 02 | [Chapter 2 Title] | ⬜ Not Started | 0 | - |
-| 03 | [Chapter 3 Title] | ⬜ Not Started | 0 | - |
+| # | Chapter | Status | Words | Last Updated |
+|---|---------|--------|-------|-------------|
+| 01 | The Problem of Grip | ⬜ Not Started | 0 | - |
+| 02 | Constraints Before Categories | ⬜ Not Started | 0 | - |
+| 03 | Embodiment and Affordances | ⬜ Not Started | 0 | - |
+| 04 | Neutral Stances, Convergent Functions | ⬜ Not Started | 0 | - |
+| 05 | Rate–Distortion Life | ⬜ Not Started | 0 | - |
+| 06 | Predictive Brains, Budgeted Attention | ⬜ Not Started | 0 | - |
+| 07 | Helpful Misrepresentations | ⬜ Not Started | 0 | - |
+| 08 | Schemas, Frames, and Scripts | ⬜ Not Started | 0 | - |
+| 09 | Symbols and Narratives | ⬜ Not Started | 0 | - |
+| 10 | Institutions and Dashboards | ⬜ Not Started | 0 | - |
+| 11 | Curiosity and Epistemic Value | ⬜ Not Started | 0 | - |
+| 12 | Degeneracy and Redundancy | ⬜ Not Started | 0 | - |
+| 13 | Scaffolding and Collective Cognition | ⬜ Not Started | 0 | - |
+| 14 | The Formal Spine | ⬜ Not Started | 0 | - |
+| 15 | The Architecture Table (Full Spec) | ⬜ Not Started | 0 | - |
+| 16 | The Empirical Playbook | ⬜ Not Started | 0 | - |
+| 17 | Case Threads Across Layers | ⬜ Not Started | 0 | - |
+| 18 | From Payoffs to Oughts | ⬜ Not Started | 0 | - |
+| 19 | Mechanism Design for Minds and Markets | ⬜ Not Started | 0 | - |
+| 20 | Design Patterns: Therapy, Education, UX, AI | ⬜ Not Started | 0 | - |
+| Coda | Reflexivity and Revision | ⬜ Not Started | 0 | - |
 
 ### Status Icons
-- 🧠 Brainstormed - Ideas captured in brainstorms/
-- 📋 Outlined - Detailed structure in outlines/
-- ✍️ Drafted - First draft written  
+- ⬜ Not Started - Chapter file created but empty
+- 🧠 Brainstormed - Research completed, brainstorm exists
+- 📋 Outlined - Detailed structure in place (100+ words)
+- ✍️ Drafted - Substantial content written (1000+ words)
 - 🔍 Revised - Reviewed and improved
 - ✅ Complete - Final version ready
 
 ## Thematic Threads
-*Track major themes across chapters*
+*These will be tracked via `/thematicAnalysis` as chapters develop*
 
-### Thread 1: [Theme Name]
-- **Chapters**: [List]
-- **Development**: [How this theme evolves]
+### Part I: Constraints as Modern Transcendentals
+- Chapters 1-4
+- Establishes foundations without metaphysical commitment
 
-### Thread 2: [Theme Name] 
-- **Chapters**: [List]
-- **Development**: [How this theme evolves]
+### Part II: Fitness Dashboard (Payoff-Biased Perception)
+- Chapters 5-7
+- Derives perception from rate-distortion under constraints
+
+### Part III: From Icons to Shared Worlds
+- Chapters 8-10
+- Private interfaces → public culture (schemas, symbols, institutions)
+
+### Part IV: Beyond Compression
+- Chapters 11-13
+- Expansion mechanisms: exploration, redundancy, scaffolding
+
+### Part V: Models & Measures
+- Chapters 14-17
+- Formal spine + empirical playbook + case threads
+
+### Part VI: Ethics, Alignment, Design
+- Chapters 18-20 + Coda
+- Values, mechanism design, practical applications, reflexivity
 
 ## Quality Tracking
 
 ### Outstanding Items
 - **Research needed**: 0 items
-- **Revision notes**: 0 items  
+- **Revision notes**: 0 items
 - **TODO placeholders**: 0 items
 
 ### Recent Activity
-- [Date]: Project initialized
-- [Date]: [Next major milestone]
+- 2025-10-10: Project initialized
+- 2025-10-10: TOC.md created with full book structure
+- 2025-10-10: book.config.json configured
+- 2025-10-10: style-guide.md created
+- 2025-10-10: BOOK_SUMMARY.md initialized
 
 ## Next Actions
-1. Customize TOC.md with your chapter structure
-2. Run `/tocToChapters` to generate chapter files
-3. Begin with `/prepareChapter 1` 
+1. ✅ TOC.md is ready with complete chapter structure
+2. **Run `/tocToChapters`** to generate all 21 chapter files
+3. **Begin with `/prepareChapter 1`** to research and brainstorm Chapter 1
+4. **Then `/writeChapter 1`** to write the first chapter
+5. **Run `/styleCheck 1`** for editorial review
 
 ---
 
-*Use `/bookStatus` to refresh this dashboard automatically*
+*Use `/bookStatus` for detailed health check and progress analysis*
