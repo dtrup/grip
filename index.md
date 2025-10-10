@@ -1,18 +1,19 @@
-# [Book Title]
+# Grip: A Transcendental Aesthetics of the Psyche
 
-**By [Author Name]**
+**By dtp**
 
-> [Book's core thesis or compelling tagline]
+> From World Constraints to Fitness Interfaces to Cultural Intelligence
 
 ## About This Book
 
-**Genre**: [Genre] | **Status**: In Progress | **Target**: [Target Words] words
+**Genre**: Academic Non-Fiction (Cognitive Science, Philosophy, Information Theory) | **Status**: In Progress | **Target**: 100,000+ words
 
 ### What This Book Does
-[Brief description of the book's purpose and what readers will gain]
+
+Agents gain **grip** on a complex world by building, revising, and sharing **compressions under constraints**, and by **expanding** capacity through exploration, redundancy, and social scaffolding. This book develops a unified framework—metaphysically neutral, formally grounded, empirically testable—that bridges neurons, persons, and institutions through one control-theoretic spine.
 
 ### Progress
-[X] of [Y] chapters complete ([Z]%)
+0 of 21 chapters complete (0%)
 
 ---
 
@@ -20,24 +21,91 @@
 
 *Chapters will be linked as they are completed*
 
-### Chapter 1: [Title]
-📝 *In Progress* | [Current word count] words  
-*[Brief chapter description]*
+### Part I: Grounding the Ground — Constraints as Modern Transcendentals
 
-### Chapter 2: [Title]  
-⬜ *Not Started*  
-*[Brief chapter description]*
+**1. [The Problem of Grip](chapters/chapter-01.md)** — ⬜ *Not Started*
+*How do agents make an unruly world tractable enough to live in?*
 
-### Chapter 3: [Title]
-⬜ *Not Started*
-*[Brief chapter description]*
+**2. [Constraints Before Categories](chapters/chapter-02.md)** — ⬜ *Not Started*
+*Time, energy, information, risk, and coordination as transcendental conditions*
+
+**3. [Embodiment and Affordances](chapters/chapter-03.md)** — ⬜ *Not Started*
+*How bodies turn world regularities into usable affordances*
+
+**4. [Neutral Stances, Convergent Functions](chapters/chapter-04.md)** — ⬜ *Not Started*
+*Realism, pragmatism, and process views as compatible lenses*
+
+### Part II: The Fitness Dashboard — Why Perception is Lossy and Useful
+
+**5. [Rate–Distortion Life](chapters/chapter-05.md)** — ⬜ *Not Started*
+*Information bottleneck as the language of perceptual compression*
+
+**6. [Predictive Brains, Budgeted Attention](chapters/chapter-06.md)** — ⬜ *Not Started*
+*Attention as precision allocation under budgets*
+
+**7. [Helpful Misrepresentations](chapters/chapter-07.md)** — ⬜ *Not Started*
+*Distortions that improve control*
+
+### Part III: From Icons to Worlds We Share — Schemas, Symbols, Institutions
+
+**8. [Schemas, Frames, and Scripts](chapters/chapter-08.md)** — ⬜ *Not Started*
+*Templates for fast interpretation and action*
+
+**9. [Symbols and Narratives](chapters/chapter-09.md)** — ⬜ *Not Started*
+*Displacement and recombination through external tokens*
+
+**10. [Institutions and Dashboards](chapters/chapter-10.md)** — ⬜ *Not Started*
+*Coordination compressions and Goodhart drift*
+
+### Part IV: Beyond Compression — Exploration, Redundancy, Scaffolding
+
+**11. [Curiosity and Epistemic Value](chapters/chapter-11.md)** — ⬜ *Not Started*
+*Exploration bonuses and novelty search*
+
+**12. [Degeneracy and Redundancy](chapters/chapter-12.md)** — ⬜ *Not Started*
+*Many-ways-to-win architectures*
+
+**13. [Scaffolding and Collective Cognition](chapters/chapter-13.md)** — ⬜ *Not Started*
+*Tools, peers, and AI expand the cognitive cone*
+
+### Part V: Models, Measures, and Experiments
+
+**14. [The Formal Spine](chapters/chapter-14.md)** — ⬜ *Not Started*
+*Multi-objective Lagrangian unifying perception, cognition, institutions*
+
+**15. [The Architecture Table (Full Spec)](chapters/chapter-15.md)** — ⬜ *Not Started*
+*Field manual for mapping any domain to the framework*
+
+**16. [The Empirical Playbook](chapters/chapter-16.md)** — ⬜ *Not Started*
+*Translating claims into falsifiable studies*
+
+**17. [Case Threads Across Layers](chapters/chapter-17.md)** — ⬜ *Not Started*
+*Snake on trail, meeting a stranger, market crash—sensation to institution*
+
+### Part VI: Ethics, Alignment, and Design
+
+**18. [From Payoffs to Oughts](chapters/chapter-18.md)** — ⬜ *Not Started*
+*Value-weighted distortions and moral pluralism*
+
+**19. [Mechanism Design for Minds and Markets](chapters/chapter-19.md)** — ⬜ *Not Started*
+*Incentives, legibility, and institutional design*
+
+**20. [Design Patterns: Therapy, Education, UX, AI](chapters/chapter-20.md)** — ⬜ *Not Started*
+*Practical templates for applied work*
+
+### Coda
+
+**[Reflexivity and Revision](chapters/chapter-coda.md)** — ⬜ *Not Started*
+*How the framework updates itself*
 
 ---
 
 ## About the Author
-[Author bio or brief description]
+
+dtp develops frameworks for understanding how minds (biological and cultural) make complexity actionable.
 
 ## Reading Notes
+
 This book is published as a work in progress. You can:
 - 💬 **Comment on any passage** using Hypothesis (sidebar comments)
 - 📖 **Follow along** as new chapters are published
@@ -45,6 +113,6 @@ This book is published as a work in progress. You can:
 
 ---
 
-*Published using [Book-Base](https://github.com/user/book-base) - LLM-powered book writing system*
+*Published using [Book-Base](https://github.com/anthropics/book-base) - AI-powered book writing system*
 
 <script src="https://hypothes.is/embed.js" async></script>
