@@ -29,16 +29,16 @@ Readers will gain a unified framework for understanding how minds (biological an
 ### Overall Stats
 - **Total Chapters**: 21 (20 chapters + Coda)
 - **Completed**: 0 (0%)
-- **In Progress**: 0
-- **Not Started**: 21
-- **Current Word Count**: 0 / 100,000+ (0%)
+- **In Progress**: 1
+- **Not Started**: 20
+- **Current Word Count**: 4,385 / 100,000+ (4.4%)
 
 ### Chapter Progress
 *This section will be auto-updated by the post-tool-use hook when you run `/tocToChapters`*
 
 | # | Chapter | Status | Words | Last Updated |
 |---|---------|--------|-------|-------------|
-| 01 | The Problem of Grip | ⬜ Not Started | 0 | - |
+| 01 | The Problem of Grip | ✍️ Drafted | 4,385 | 2025-10-11 |
 | 02 | Constraints Before Categories | ⬜ Not Started | 0 | - |
 | 03 | Embodiment and Affordances | ⬜ Not Started | 0 | - |
 | 04 | Neutral Stances, Convergent Functions | ⬜ Not Started | 0 | - |
@@ -103,11 +103,11 @@ Readers will gain a unified framework for understanding how minds (biological an
 - **TODO placeholders**: 0 items
 
 ### Recent Activity
+- 2025-10-11: Chapter 1 drafted (4,385 words) and style-checked
+- 2025-10-10: Chapter 1 brainstorm completed
+- 2025-10-10: All 21 chapter files created
 - 2025-10-10: Project initialized
 - 2025-10-10: TOC.md created with full book structure
-- 2025-10-10: book.config.json configured
-- 2025-10-10: style-guide.md created
-- 2025-10-10: BOOK_SUMMARY.md initialized
 
 ## Next Actions
 1. ✅ TOC.md is ready with complete chapter structure
