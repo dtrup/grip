@@ -46,13 +46,50 @@ The research-assistant subagent will:
    - Examples are specific and well-documented
    - Confidence levels noted (✅ Verified / ⚠️ Needs verification / ❓ Uncertain)
 
-## Your Command
+## Your Instructions
 
-**Delegate to the research-assistant subagent to prepare chapter $1.**
+**Create a CONCISE delegation prompt** for the research-assistant subagent:
 
-The research-assistant is trained in research methodology, source evaluation, and fact-checking. It will create a comprehensive brainstorm so thorough that writing becomes straightforward execution.
+### Efficient Prompt Template:
 
-After the brainstorm is complete:
-- Review the plan and examples
-- Use `/writeChapter $1` to delegate to the chapter-writer
-- The chapter-writer will use this research foundation automatically
+```
+Research Chapter $1: "[CHAPTER TITLE from TOC]"
+
+**Context**: Load @TOC.md (chapter specs), @style-guide.md, @book.config.json, @chapters/chapter-01.md (and any prior completed chapters for continuity).
+
+**Mission**: Create comprehensive brainstorm in `brainstorms/chapter-$1-brainstorm.md` following your standard 3-stage research process:
+1. Landscape mapping
+2. Deep investigation (3-5 quality sources per topic)
+3. Fact verification
+
+**Deliverable Structure**:
+- Core thesis (1 sentence)
+- Opening hook options (2-3)
+- Research findings by section (with sources)
+- Best examples (3-5 with full details, ✅/⚠️/❓ confidence)
+- Narrative arc
+- Cross-chapter connections
+- Writer guidance
+- Full citations
+
+**Quality**: All claims 2+ authoritative sources. Target: ~4,750 word chapter foundation.
+
+**IMPORTANT**: Report back with SUMMARY ONLY (do not include full brainstorm content in your response):
+- File location
+- Number of sources
+- Number of examples found
+- Confidence level
+- Any gaps/concerns
+- Ready for /writeChapter $1
+```
+
+### Key Optimization:
+- Keep prompt under 500 words
+- Trust subagent expertise (avoid over-specifying)
+- Request summary report only (not full content)
+- Full brainstorm stays in file for chapter-writer to read
+
+After delegation completes:
+- Review summary
+- User can read brainstorm file if needed
+- Use `/writeChapter $1` when ready
