@@ -10,7 +10,12 @@
       "Bash(chmod:*)",
       "WebFetch(domain:plato.stanford.edu)",
       "WebFetch(domain:www.gary-klein.com)",
-      "SlashCommand(/styleCheck:*)"
+      "SlashCommand(/styleCheck:*)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:www.jneurosci.org)",
+      "WebFetch(domain:pmc.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:static.ias.edu)",
+      "WebFetch(domain:www.princeton.edu)"
     ],
     "deny": [],
     "ask": []
