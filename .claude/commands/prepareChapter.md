@@ -11,40 +11,30 @@ This command delegates research and brainstorming to the **research-assistant** 
 
 The research-assistant subagent will:
 
-1. **Load project context**:
-   - Chapter role from @TOC.md
-   - Progress and themes from @BOOK_SUMMARY.md
-   - Voice and approach from @style-guide.md
+1. **Load minimal context**:
+   - This chapter's specs from @TOC.md (lines for chapter only)
+   - Continuity from @BOOK_SUMMARY.md (not full prior chapters)
+   - Voice from @style-guide.md
    - Targets from @book.config.json
-   - Existing content from @chapters/chapter-$1.md
-   - Previous chapters for continuity
 
-2. **Conduct comprehensive research** (3-stage process):
-   - **Landscape Mapping**: Identify key questions, major concepts, authoritative sources
-   - **Deep Investigation**: Find 3-5 quality sources per topic, extract data/quotes, identify examples
-   - **Fact Verification**: Cross-reference claims, verify statistics, check expert credentials
+2. **Conduct efficient research**:
+   - Identify key concepts and 2-3 authoritative sources per claim
+   - Find strong examples (quality over quantity)
+   - Verify accuracy of examples and key statistics
 
-3. **Discover compelling examples**:
-   - Find 3-5 specific, concrete examples
-   - Prioritize unexpected, memorable, recent, well-documented cases
-   - Get enough detail to tell stories accurately
-   - Verify example accuracy (avoid urban legends!)
+3. **Create focused brainstorm** in `brainstorms/chapter-$1-brainstorm.md`:
+   - Core thesis (1 sentence)
+   - Opening hooks (2-3 options)
+   - Research findings with essential sources
+   - Best examples (3-5 with details)
+   - Narrative arc
+   - Cross-chapter connections
+   - Citations
 
-4. **Create comprehensive brainstorm** in `brainstorms/chapter-$1-brainstorm.md`:
-   - **Core Thesis**: The ONE key insight this chapter delivers
-   - **Opening Hook Options**: 2-3 compelling ways to start
-   - **Research Findings**: Facts, data, studies by section
-   - **Best Examples**: 3-5 stories with full details and sources
-   - **Narrative Arc**: Hook → Development → Conclusion flow
-   - **Cross-Chapter Connections**: Callbacks and forward setup
-   - **Writer Guidance**: Tone notes, pitfalls to avoid, emphasis points
-   - **Full Citations**: All source details for fact-checking
-
-5. **Quality assurance**:
-   - All claims have 2+ authoritative sources
-   - Statistics traced to original sources
-   - Examples are specific and well-documented
-   - Confidence levels noted (✅ Verified / ⚠️ Needs verification / ❓ Uncertain)
+4. **Quality standards**:
+   - 2+ authoritative sources for major claims
+   - Examples verified (✅/⚠️/❓)
+   - Foundation for ~4,750 word chapter
 
 ## Your Instructions
 
@@ -55,32 +45,24 @@ The research-assistant subagent will:
 ```
 Research Chapter $1: "[CHAPTER TITLE from TOC]"
 
-**Context**: Load @TOC.md (chapter specs), @style-guide.md, @book.config.json, @chapters/chapter-01.md (and any prior completed chapters for continuity).
+**Context**: Read @BOOK_SUMMARY.md for continuity, @style-guide.md for voice, @book.config.json for targets. Check TOC.md only for this chapter's specs (lines X-Y).
 
-**Mission**: Create comprehensive brainstorm in `brainstorms/chapter-$1-brainstorm.md` following your standard 3-stage research process:
-1. Landscape mapping
-2. Deep investigation (3-5 quality sources per topic)
-3. Fact verification
-
-**Deliverable Structure**:
+**Mission**: Create focused brainstorm in `brainstorms/chapter-$1-brainstorm.md`:
 - Core thesis (1 sentence)
-- Opening hook options (2-3)
-- Research findings by section (with sources)
-- Best examples (3-5 with full details, ✅/⚠️/❓ confidence)
+- Opening hooks (2-3)
+- Key research (2-3 authoritative sources per major claim, not exhaustive)
+- Best examples (3-5 with essentials, ✅/⚠️/❓)
 - Narrative arc
-- Cross-chapter connections
-- Writer guidance
-- Full citations
+- Cross-chapter links
+- Citations
 
-**Quality**: All claims 2+ authoritative sources. Target: ~4,750 word chapter foundation.
+**Research approach**: Efficient, not exhaustive. Find solid foundation, not every source. Focus on:
+- Core concepts & definitions
+- 2-3 classic citations per claim
+- Strong concrete examples
+- Practical measures
 
-**IMPORTANT**: Report back with SUMMARY ONLY (do not include full brainstorm content in your response):
-- File location
-- Number of sources
-- Number of examples found
-- Confidence level
-- Any gaps/concerns
-- Ready for /writeChapter $1
+**Report back**: SUMMARY ONLY (location, source count, example count, confidence, gaps, ready status)
 ```
 
 ### Key Optimization:

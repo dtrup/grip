@@ -11,13 +11,12 @@ This command delegates chapter writing to the **chapter-writer** subagent, a spe
 
 The chapter-writer subagent will:
 
-1. **Load all necessary context automatically**:
-   - Your brainstorm plan from @brainstorms/chapter-$1-brainstorm.md
-   - Style guide and voice standards from @style-guide.md
+1. **Load minimal necessary context**:
+   - Brainstorm plan from @brainstorms/chapter-$1-brainstorm.md
+   - Style guide from @style-guide.md
    - Word count targets from @book.config.json
-   - Existing chapter content from @chapters/chapter-$1.md
-   - Previous chapters for voice consistency
-   - Chapter summaries for continuity
+   - Existing chapter from @chapters/chapter-$1.md
+   - Continuity from @BOOK_SUMMARY.md (not full prior chapters)
 
 2. **Write with expertise**:
    - Transform brainstorm into polished content
