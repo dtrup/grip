@@ -170,4 +170,26 @@ The scaffolding is in place. Now we add the flesh.
 
 ---
 
+---
+
+## Chapter Summary (for continuity tracking)
+
+**Core Argument**: Time, energy, information, risk, and coordination function as modern transcendental conditions—measurable, tunable budgets that structure what can be sensed, computed, and coordinated. These constraints operate simultaneously and interact complexly. Unlike Kant's fixed categories, they're empirically tractable and vary with development, learning, and technology. Together they replace classical *a priori* forms as enabling conditions of experience.
+
+**Key Concepts Introduced**:
+- **Five constraints**: Time (speed-accuracy tradeoff), Energy (metabolic budget), Information (channel capacity), Risk (explore-exploit), Coordination (common knowledge).
+- **Drift-diffusion model**: Evidence accumulates to a threshold; lower threshold trades accuracy for speed.
+- **Sparse coding**: Metabolic limits force neurons to be selective; efficiency constraints shape neural representations.
+- **Information bottleneck**: Compress inputs to preserve task-relevant output information while minimizing rate.
+- **Multi-objective optimization**: Constraints interact; single-constraint optimization is globally suboptimal.
+
+**Major Examples Used**:
+- Saccadic eye movements: adjust velocity based on target size to optimize time-blind duration, motor noise, and information extraction.
+- Honeybee waggle dance: communication precision trades off against foraging time; colony must learn the protocol socially.
+- Byzantine Generals Problem: coordination costs are fundamental; common knowledge is expensive to achieve.
+- Temporal discounting: hyperbolic, not exponential; preference reversals reveal risk-time coupling.
+- START triage system: brutal compression under severe resource constraint; optimal error distribution differs by priority.
+
+**Transition to Next Chapter**: Chapter 3 shows how embodiment channels these abstract budgets into concrete possibilities. Bodies aren't neutral containers; they pre-compress the world through morphology, sensor placement, and sensorimotor coupling. Constraints meet flesh.
+
 <script src="https://hypothes.is/embed.js" async></script>

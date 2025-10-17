@@ -219,4 +219,27 @@ The body has done its job: turning budgets into handles. Now we see what metaphy
 
 ---
 
+---
+
+## Chapter Summary (for continuity tracking)
+
+**Core Argument**: Embodiment pre-compresses the world through morphology, sensor placement, and sensorimotor coupling. Bodies aren't neutral containers for minds; they discretize continuous flux into action-relevant categories. Affordances are relational invariants—possibilities for action that exist only at the intersection of agent capabilities and environmental structure. Perception is active exploration; affordances are discovered through movement, not passively perceived.
+
+**Key Concepts Introduced**:
+- **Affordance**: Action possibility relative to agent and context; a relational invariant, not objective property or subjective projection.
+- **Morphological computation**: Body structure performs computation that would otherwise require neural circuits; physical dynamics offload from neurons.
+- **Body-scaled ratios**: Pi-numbers (dimensionless proportions) define action boundaries; same ratio (e.g., 0.88 for climbability) invariant across body sizes.
+- **Sensorimotor contingencies**: Lawful relations between actions and sensory changes; perception constituted by mastery of these couplings.
+- **Motor babbling**: Random motor exploration that discovers body-world mappings; enables learning of sensorimotor schemas.
+- **Tool incorporation**: Body schema plastically extends to include tools; peripersonal space expands with rake training in monkeys.
+
+**Major Examples Used**:
+- Warren's stairs: visual system solves "Can I climb?" through body-scaled ratio, not through explicit physics.
+- Passive dynamic walker: morphology achieves stable gait without motors or control, offloading computation to physics.
+- Bach-y-Rita's tactile vision substitution: spatial structure transfers across modalities; the blind learn to "see" through touch because sensorimotor contingencies are preserved.
+- Goodale & Milner's patient D.F.: dissociation between dorsal (action) and ventral (conscious perception) streams; accurate grasping despite absent object recognition.
+- Developmental trajectory: infants learn affordances through active exploration (reaching, crawling); critical periods shape embodied skills.
+
+**Transition to Next Chapter**: Chapter 4 addresses the philosophical question embodiment raises: Are affordances "real," or are they agent-relative constructs? Different metaphysical frames (realism, structural realism, process philosophy, pragmatism) offer different answers. Yet they converge on the same functional necessities for control.
+
 <script src="https://hypothes.is/embed.js" async></script>

@@ -160,4 +160,26 @@ That's the question for Chapter 2. If compression is *how* agents grip, constrai
 
 ---
 
+---
+
+## Chapter Summary (for continuity tracking)
+
+**Core Argument**: Agents gain grip by compressing a complex world into actionable categories. Constraints (time, energy, information, risk, coordination) enable rather than merely limit cognition. Success is measured in control and anticipation, not correspondence with exhaustive truth. Compression is necessary for tractable action; expansion (exploration, redundancy, scaffolding) prevents brittleness.
+
+**Key Concepts Introduced**:
+- **Grip**: The capacity to make a complex world tractable through selection and simplification.
+- **Constraints as enablers**: Time, energy, information, and coordination limits force useful compressions.
+- **Control over correspondence**: Optimization for effective action, not pixel-perfect fidelity.
+- **Lossy compression**: Rate-distortion trade-offs as the natural language of perception and decision.
+- **Homomorphic mapping**: Models preserve task-relevant structure while discarding the rest.
+
+**Major Examples Used**:
+- Snake vs. twig: split-second visual compression that privileges survival over accuracy.
+- Chess grandmasters: 50,000 chunks compress board positions into perceptual patterns.
+- Gaze heuristic: baseball outfielders exploit physics rather than computing trajectories.
+- Firefighter recognition-primed decisions: mental simulation of typical scenarios under pressure.
+- Paradox of choice: too many options induces paralysis; constraint clarifies.
+
+**Transition to Next Chapter**: Chapter 2 specifies the constraints abstractly. What exactly are time, energy, information, risk, and coordination budgets? How do they interact? Can they be measured and tuned? We move from the intuition that grip requires compression to the formal specification of the constraints that force it.
+
 <script src="https://hypothes.is/embed.js" async></script>

@@ -232,6 +232,29 @@ Rate-distortion gives us the formal language. Categorical perception gives us th
 
 ---
 
+---
+
+## Chapter Summary (for continuity tracking)
+
+**Core Argument**: Perceptual systems implement rate-distortion optimization, compressing high-dimensional inputs into task-weighted representations that preserve information relevant to control, not correspondence. Categorical boundaries, asymmetric decision criteria, and value-driven attention are not bugs but adaptive compression strategies calibrated by payoffs. The distortion measure encodes what matters for behavior; agents discard distinctions irrelevant to outcomes and sharpen those that predict different actions.
+
+**Key Concepts Introduced**:
+- **Rate-distortion function**: Minimum information rate needed for tolerable reconstruction error; fundamental trade-off with no free lunch.
+- **Information bottleneck**: Compress input X to preserve information about task-relevant output Y while minimizing rate; formalizes perception as lossy encoding for prediction.
+- **Categorical perception**: Continuous stimuli discretized into sharp perceptual categories; discrimination peaks at boundaries that predict different actions.
+- **Efficient coding**: Sensory neurons decorrelate inputs and amplify surprising features; compression ratio near 100:1 in retina (100M photoreceptors → 1M ganglion cells).
+- **Asymmetric error costs**: Decision criteria shift with payoff structure; false negatives cost differently than false alarms; evolution sets thresholds via asymmetric costs.
+- **Snake detection theory**: 60 million years of predation pressure from venomous snakes shaped primate vision; threat biases are evolutionarily rational when miss costs >> false alarm costs.
+
+**Major Examples Used**:
+- Phoneme perception: continuous voice onset time (VOT) compressed into /ba/ vs. /pa/ categories; Russian speakers show enhanced discrimination for *siniy*/*goluboy* boundary (linguistically marked), English speakers don't.
+- Retinal compression: center-surround receptive fields encode edges and motion, discard uniform regions; ~80% efficient relative to Shannon capacity.
+- Infants' phoneme tuning: universal discrimination at 6-8 months, Native-language tuning by 10-12 months; perceptual categories learned from statistical structure of ambient language.
+- Snake pareidolia: ropes, hoses, curved branches trigger threat response; false positives cost only adrenaline, false negatives cost death—optimal criterion is liberal.
+- MP3 compression: discard frequencies above human hearing and leverage loudness-masking; 10:1 compression via perceptually meaningful loss.
+
+**Transition to Next Chapter**: Chapter 6 extends rate-distortion temporally. If spatial compression discards irrelevant features, temporal compression discards predictable redundancy. Prediction errors—not predictions themselves—consume bandwidth. Attention becomes precision-weighted gain control: allocate processing to surprising, high-reliability signals; suppress confirmed expectations as low-priority noise.
+
 **Chapter 5 establishes:** Perceptual systems implement rate-distortion optimization, compressing high-dimensional inputs into task-weighted representations that preserve information relevant to control. Categorical boundaries, asymmetric decision criteria, and value-driven attention are not perceptual failures but adaptive compression strategies under bandwidth constraints and asymmetric payoffs. The formal spine is the information bottleneck; the empirical signature is categorical perception; the neural implementation is efficient coding. This grounds the claim that perception is a dashboard for action, not a camera for truth.
 
 **Chapter 6 extends:** Predictive processing—perception as prediction-error minimization, attention as precision weighting, compression through temporal redundancy reduction.

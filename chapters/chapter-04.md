@@ -224,4 +224,26 @@ That's where we go next. Metaphysical neutrality established. Control architectu
 
 ---
 
+---
+
+## Chapter Summary (for continuity tracking)
+
+**Core Argument**: Different metaphysical positions—scientific realism, structural realism, process philosophy, pragmatism—are compatible lenses on the same control problem. Whether the world is fundamentally objects, relations, processes, or pragmatic constructs, agents must build lossy models tuned to control rather than essence. The Good Regulator Theorem formalizes this: any efficient regulator must homomorphically map the system it regulates, preserving control-relevant structure while discarding the rest. Metaphysical neutrality is a virtue for analyzing grip.
+
+**Key Concepts Introduced**:
+- **Metaphysical neutrality**: Multiple ontologies yield the same functional architecture under constraints.
+- **Good Regulator Theorem**: Efficient regulators are homomorphic models—lossy mappings that preserve structure needed for control, not exhaustive isomorphisms.
+- **Multiple realizability**: Same function can be implemented by different substrates (pain in humans, octopuses, hypothetical aliens).
+- **Convergent evolution**: Same functional solutions arise independently (camera eyes, wings, echolocation) across lineages—evidence that constraints force convergence regardless of starting conditions.
+- **Functional convergence**: Octopus and human eyes solve the same optical problem differently, yet yield equivalent control architectures.
+
+**Major Examples Used**:
+- Camera eyes in octopuses and humans: independent evolution from different developmental pathways, yet same optical function; 875 conserved genes despite 500-million-year divergence.
+- Wings in birds, bats, insects: different morphologies (feathers, membranes, exoskeleton), all generating lift via Bernoulli's principle.
+- Echolocation in bats and toothed whales: independent convergent molecular evolution in hearing genes (Prestin), tuning auditory systems to high-frequency signals.
+- Thermostat regulating temperature: lossy homomorphic model of room dynamics; doesn't model molecular collisions, just above/below setpoint.
+- Interface Theory of Perception: Hoffman's account of perception as user-friendly icons, vs. our view that icons must maintain systematic coupling to underlying system.
+
+**Transition to Next Chapter**: Chapter 5 formalizes the control architecture using mathematical language. Rate-distortion theory and the information bottleneck specify how to compress under constraints in a way that preserves task-relevant structure. The formal spine is neutral to metaphysics; it describes functional necessities.
+
 <script src="https://hypothes.is/embed.js" async></script>

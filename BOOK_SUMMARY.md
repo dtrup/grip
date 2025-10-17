@@ -1,6 +1,6 @@
 # Grip: A Transcendental Aesthetics of the Psyche - Progress Dashboard
 
-> **Last Updated**: 2025-10-10 | **Status**: Project Initialized | **Progress**: 0%
+> **Last Updated**: 2025-10-17 | **Status**: Project Initialized | **Progress**: 0%
 
 ## Project Overview
 - **Title**: Grip: A Transcendental Aesthetics of the Psyche
@@ -38,26 +38,26 @@ Readers will gain a unified framework for understanding how minds (biological an
 
 | # | Chapter | Status | Words | Last Updated |
 |---|---------|--------|-------|-------------|
-| 01 | The Problem of Grip | ✍️ Drafted | 4,385 | 2025-10-11 |
-| 02 | Constraints Before Categories | ⬜ Not Started | 0 | - |
-| 03 | Embodiment and Affordances | ⬜ Not Started | 0 | - |
-| 04 | Neutral Stances, Convergent Functions | ⬜ Not Started | 0 | - |
-| 05 | Rate–Distortion Life | ⬜ Not Started | 0 | - |
-| 06 | Predictive Brains, Budgeted Attention | ⬜ Not Started | 0 | - |
-| 07 | Helpful Misrepresentations | ⬜ Not Started | 0 | - |
-| 08 | Schemas, Frames, and Scripts | ⬜ Not Started | 0 | - |
-| 09 | Symbols and Narratives | ⬜ Not Started | 0 | - |
-| 10 | Institutions and Dashboards | ⬜ Not Started | 0 | - |
-| 11 | Curiosity and Epistemic Value | ⬜ Not Started | 0 | - |
-| 12 | Degeneracy and Redundancy | ⬜ Not Started | 0 | - |
-| 13 | Scaffolding and Collective Cognition | ⬜ Not Started | 0 | - |
-| 14 | The Formal Spine | ⬜ Not Started | 0 | - |
-| 15 | The Architecture Table (Full Spec) | ⬜ Not Started | 0 | - |
-| 16 | The Empirical Playbook | ⬜ Not Started | 0 | - |
-| 17 | Case Threads Across Layers | ⬜ Not Started | 0 | - |
-| 18 | From Payoffs to Oughts | ⬜ Not Started | 0 | - |
-| 19 | Mechanism Design for Minds and Markets | ⬜ Not Started | 0 | - |
-| 20 | Design Patterns: Therapy, Education, UX, AI | ⬜ Not Started | 0 | - |
+| 01 | The Problem of Grip | 🔍 Revised | 4,377 | 2025-10-17 |
+| 02 | Constraints Before Categories | 🔍 Revised | 3,904 | 2025-10-17 |
+| 03 | Embodiment and Affordances | 🔍 Revised | 5,085 | 2025-10-17 |
+| 04 | Neutral Stances, Convergent Functions | 🔍 Revised | 4,781 | 2025-10-17 |
+| 05 | Rate–Distortion Life | 🔍 Revised | 4,516 | 2025-10-17 |
+| 06 | Predictive Brains, Budgeted Attention | 🔍 Revised | 5,114 | 2025-10-17 |
+| 07 | Helpful Misrepresentations | 📋 Outlined | 108 | 2025-10-17 |
+| 08 | Schemas, Frames, and Scripts | 📋 Outlined | 111 | 2025-10-17 |
+| 09 | Symbols and Narratives | 📋 Outlined | 119 | 2025-10-17 |
+| 10 | Institutions and Dashboards | 📋 Outlined | 117 | 2025-10-17 |
+| 11 | Curiosity and Epistemic Value | 📋 Outlined | 114 | 2025-10-17 |
+| 12 | Degeneracy and Redundancy | 📋 Outlined | 105 | 2025-10-17 |
+| 13 | Scaffolding and Collective Cognition | 📋 Outlined | 120 | 2025-10-17 |
+| 14 | The Formal Spine | 📋 Outlined | 122 | 2025-10-17 |
+| 15 | The Architecture Table (Full Spec) | 📋 Outlined | 104 | 2025-10-17 |
+| 16 | The Empirical Playbook | 📋 Outlined | 118 | 2025-10-17 |
+| 17 | Case Threads Across Layers | ⬜ Not Started | 94 | 2025-10-17 |
+| 18 | From Payoffs to Oughts | 📋 Outlined | 115 | 2025-10-17 |
+| 19 | Mechanism Design for Minds and Markets | 📋 Outlined | 108 | 2025-10-17 |
+| 20 | Design Patterns: Therapy, Education, UX, AI | 📋 Outlined | 130 | 2025-10-17 |
 | Coda | Reflexivity and Revision | ⬜ Not Started | 0 | - |
 
 ### Status Icons
