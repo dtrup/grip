@@ -5,6 +5,11 @@ allowed-tools: Task
 
 # Prepare Chapter $1: Delegate to Expert Research Assistant
 
+**Model**: Switch to haiku for efficient research
+```
+/model haiku
+```
+
 This command delegates research and brainstorming to the **research-assistant** subagent, a specialized expert in research methodology and planning.
 
 ## What Happens
@@ -45,7 +50,7 @@ The research-assistant subagent will:
 ```
 Research Chapter $1: "[CHAPTER TITLE from TOC]"
 
-**Context**: Read @BOOK_SUMMARY.md for continuity, @style-guide.md for voice, @book.config.json for targets. Check TOC.md only for this chapter's specs (lines X-Y).
+**Context**: Read @CHAPTER_SUMMARIES.md for narrative continuity (what came before), @style-guide.md for voice, @book.config.json for targets. Check TOC.md only for this chapter's specs (lines X-Y).
 
 **Mission**: Create focused brainstorm in `brainstorms/chapter-$1-brainstorm.md`:
 - Core thesis (1 sentence)
@@ -75,3 +80,8 @@ After delegation completes:
 - Review summary
 - User can read brainstorm file if needed
 - Use `/writeChapter $1` when ready
+
+**Reset Model**: Switch back to sonnet for writing phase
+```
+/model sonnet
+```

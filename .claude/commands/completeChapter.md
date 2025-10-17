@@ -11,45 +11,62 @@ Mark chapter as complete and update all project tracking.
 
 1. **Final quality check**:
    - Read @chapters/chapter-$1.md to verify it's complete
-   - Count words and verify meets targets in @book.config.json
+   - Count words (use Bash wc -w, exclude YAML front matter)
+   - Verify meets targets in @book.config.json (~4,750 words)
    - Check for any [TODO], [RESEARCH], or [REVISE] markers
    - Ensure smooth transitions into and out of chapter
 
-2. **Update progress tracking**:
-   - Update chapter status to "✅ Complete" in @chapters/chapter-$1.md
-   - Add final word count and completion date  
-   - **Add internal chapter navigation** to @chapters/chapter-$1.md:
-     - Create "Chapter Navigation" section after chapter title
-     - Add clickable links to all major sections (## headings)
-     - Group sections logically with brief descriptions
-     - Use markdown anchor links for easy jumping between sections
-   - Update @BOOK_SUMMARY.md with:
-     - Chapter marked as complete
-     - Updated word count totals
-     - Overall book progress percentage
-   - Update @CHAPTER_SUMMARIES.md with:
-     - Comprehensive chapter summary (3-4 sentences)
-     - Major sections list with brief descriptions for navigation
-     - Link to chapter with navigation: `[View Chapter X with Navigation](chapters/chapter-X.md)`
-     - Key themes and concepts introduced
-     - Important examples or case studies used
-     - How chapter transitions to/from adjacent chapters
-     - Update quick navigation links at top of file
+2. **Update progress tracking** (CRITICAL - Do these in order):
 
-3. **Update index.md** (main book navigation):
-   - Update chapter status from "✅ Drafted" to "✅ Complete"
-   - Replace word count target with actual word count
-   - Add "⭐ With Navigation" indicator to completed chapters
-   - Update Progress section with accurate completed vs drafted counts
-   - Update overall progress percentage (completed chapters / total chapters)
+   a. **Update chapter file** (Edit tool):
+   - Add/update YAML front matter with:
+     ```yaml
+     status: complete
+     completed_date: [YYYY-MM-DD]
+     ```
 
-4. **Prepare for publication** (if configured):
-   - Add hypothesis commenting script to chapter end if github_pages enabled in config
-   - Stage files for git if repository exists
+   b. **Run progress sync script** (Bash):
+   ```bash
+   python3 scripts/update_progress.py
+   ```
+   This automatically:
+   - Scans all chapters and counts words
+   - Updates BOOK_SUMMARY.md with all current statuses
+   - Updates overall stats and completion percentage
+   - Zero token cost (runs outside Claude context)
 
-5. **Report completion**:
-   - Show chapter stats (word count, completion date)
-   - Display updated book progress (X of Y chapters, total words)
-   - Suggest logical next steps (next chapter to work on, or publication prep if book is complete)
+   c. **Extract and copy chapter summary** (Edit tool):
+     - Read the "Chapter Summary (for continuity tracking)" section from the chapter file
+     - Copy it to the appropriate section in @CHAPTER_SUMMARIES.md
+     - Update status and word count in the CHAPTER_SUMMARIES entry
+     - This provides narrative continuity for future chapters
 
-Focus on making this chapter truly publication-ready.
+3. **Report completion** to user:
+   ```
+   ✅ Chapter $1 Complete!
+
+   📊 Stats:
+   - Word Count: [actual count]
+   - Target: ~4,750 words ([under/on/over] target)
+   - Completed: [YYYY-MM-DD]
+
+   📈 Book Progress:
+   - Chapters Complete: X of 21
+   - Total Words: [sum] / 100,000+
+   - Overall Progress: XX%
+
+   📌 Next Steps:
+   - [Suggest next chapter to work on based on TOC]
+   - Or run `/bookStatus` for full health check
+   ```
+
+## Quality Standards
+
+- Chapter must have substantial content (3,000+ words minimum)
+- No [TODO], [RESEARCH], or placeholder markers
+- All citations and sources verified
+- Narrative flows smoothly from prior chapter (check CHAPTER_SUMMARIES.md)
+
+## Integration Notes
+
+This command **explicitly updates BOOK_SUMMARY.md** instead of relying on the legacy post-tool-use hook. This is the modern SDK workflow approach—active commands rather than passive hooks.

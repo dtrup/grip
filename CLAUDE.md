@@ -9,7 +9,7 @@ Professional book writing template with **4 specialized subagent experts** and a
 3. **research-assistant** - Research, source evaluation, citations
 4. **thematic-analyst** - Cross-chapter coherence
 
-**Hook**: `.claude/hooks/post-tool-use.py` auto-updates `BOOK_SUMMARY.md` with word counts and status.
+**Progress Tracking**: Modern SDK workflow uses explicit commands (`/completeChapter`, `/updateProgress`) instead of legacy hooks.
 
 ---
 
@@ -20,12 +20,13 @@ Professional book writing template with **4 specialized subagent experts** and a
 - `/tocToChapters` - Generate chapter files from TOC.md
 
 ### Phase 2: Per Chapter (Repeat)
-- `/prepareChapter N` → research-assistant (3-stage research, creates brainstorm)
+- `/prepareChapter N` → research-assistant (3-stage research, creates brainstorm) - auto-switches to Haiku
 - `/writeChapter N` → chapter-writer (polished content from brainstorm)
 - `/styleCheck N` → style-editor (multi-pass review, prioritized feedback)
-- `/completeChapter N` - Mark complete
+- `/completeChapter N` - Mark complete, update BOOK_SUMMARY.md
 
 ### Phase 3: Book-Level
+- `/updateProgress` - Sync BOOK_SUMMARY.md with all chapter states
 - `/bookStatus` - Progress dashboard
 - `/thematicAnalysis` → thematic-analyst (map themes across book)
 - `/findGaps` - Identify weak areas
@@ -65,21 +66,23 @@ Professional book writing template with **4 specialized subagent experts** and a
 - `@outlines/chapter-NN-outline.md` - Detailed outlines (optional)
 
 ### Tracking
-- `@BOOK_SUMMARY.md` - Progress dashboard (auto-updated by hook)
-- `@CHAPTER_SUMMARIES.md` - Continuity summaries (optional)
+- `@BOOK_SUMMARY.md` - Progress dashboard (updated by `/updateProgress` and `/completeChapter`)
+- `@CHAPTER_SUMMARIES.md` - Narrative continuity (extracted from chapter summary sections)
 
 **Subagents read these files directly.** Reference by name (`@style-guide.md`) instead of copying content into prompts.
 
 ---
 
-## ⚡ Progress Tracking
+## ⚡ Progress Tracking (Modern SDK Workflow)
 
-**Hook auto-runs** after Write/Edit on `chapters/chapter-*.md`:
-1. Counts words (excludes YAML, code, markdown)
-2. Determines status: ⬜ Not Started → 🧠 Brainstormed → 📋 Outlined → ✍️ Drafted → 🔍 Revised → ✅ Complete
-3. Updates `BOOK_SUMMARY.md` with word count, status, timestamp
+**Explicit commands** update BOOK_SUMMARY.md:
+- `/completeChapter N` - Updates specific chapter to ✅ Complete with word counts
+- `/updateProgress` - Scans all chapters and syncs BOOK_SUMMARY.md with current state
 
-**Don't manually update BOOK_SUMMARY.md** - hook handles it.
+**Status progression**:
+⬜ Not Started (<100 words) → 🧠 Brainstormed (brainstorm exists) → 📋 Outlined (100-999 words) → ✍️ Drafted (1,000-2,999 words) → 🔍 Revised (3,000+ words) → ✅ Complete (YAML: status: complete)
+
+**Legacy**: `.claude/hooks/post-tool-use.py` exists but is not used in modern workflow. Explicit commands are preferred for clarity and reliability.
 
 ---
 
@@ -102,12 +105,12 @@ Professional book writing template with **4 specialized subagent experts** and a
 ### DO:
 - Delegate when commands instruct
 - Trust subagent expertise
-- Let hook track progress
+- Use `/completeChapter` or `/updateProgress` to sync BOOK_SUMMARY.md
 - Reference `@style-guide.md` for voice
 - Maintain quality standards
 
 ### DON'T:
-- Manually update BOOK_SUMMARY.md (hook does this)
+- Manually edit BOOK_SUMMARY.md (use commands instead)
 - Skip brainstorm phase (research foundation critical)
 - Ignore subagent feedback (especially style-editor)
 - Rush quality checks (consistency > speed)
@@ -127,7 +130,7 @@ Professional book writing template with **4 specialized subagent experts** and a
 
 Coordinate subagent specialists, make high-level decisions, ensure user's vision is realized through quality, consistent, publication-ready content.
 
-**You conduct. Subagents perform. Hook tracks. User writes.**
+**You conduct. Subagents perform. Commands track. User writes.**
 
 ---
 

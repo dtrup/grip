@@ -13,10 +13,10 @@ The chapter-writer subagent will:
 
 1. **Load minimal necessary context**:
    - Brainstorm plan from @brainstorms/chapter-$1-brainstorm.md
+   - Narrative continuity from @CHAPTER_SUMMARIES.md (prior chapters' summaries)
    - Style guide from @style-guide.md
    - Word count targets from @book.config.json
    - Existing chapter from @chapters/chapter-$1.md
-   - Continuity from @BOOK_SUMMARY.md (not full prior chapters)
 
 2. **Write with expertise**:
    - Transform brainstorm into polished content
@@ -33,10 +33,34 @@ The chapter-writer subagent will:
    - Claims are properly supported
    - Structure works for navigation
 
-4. **Auto-update progress** (via post-tool-use hook):
+4. **Add Chapter Summary section at end** (REQUIRED):
+   After the main chapter content, add:
+   ```markdown
+   ---
+
+   ## Chapter Summary (for continuity tracking)
+
+   **Core Argument**: [2-3 sentence summary of chapter's main thesis]
+
+   **Key Concepts Introduced**:
+   - [Concept 1 with brief description]
+   - [Concept 2 with brief description]
+   - [etc.]
+
+   **Major Examples Used**:
+   - [Example 1: brief description]
+   - [Example 2: brief description]
+   - [etc.]
+
+   **Transition to Next Chapter**: [1-2 sentences on how this sets up the next chapter]
+   ```
+
+   This summary will be copied to CHAPTER_SUMMARIES.md and used by subagents for continuity.
+
+5. **Auto-update progress** (via update script):
    - Word count tracked automatically
    - Chapter status updated to "✍️ Drafted"
-   - BOOK_SUMMARY.md updated with timestamp
+   - BOOK_SUMMARY.md synced with current state
 
 ## Your Command
 
