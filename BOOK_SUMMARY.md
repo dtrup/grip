@@ -1,6 +1,6 @@
 # Grip: A Transcendental Aesthetics of the Psyche - Progress Dashboard
 
-> **Last Updated**: 2025-10-17 | **Status**: Project Initialized | **Progress**: 0%
+> **Last Updated**: 2025-10-18 | **Status**: Active Development | **Progress**: 39.5%
 
 ## Project Overview
 - **Title**: Grip: A Transcendental Aesthetics of the Psyche
@@ -28,10 +28,10 @@ Readers will gain a unified framework for understanding how minds (biological an
 
 ### Overall Stats
 - **Total Chapters**: 21 (20 chapters + Coda)
-- **Completed**: 1 (4.8%)
+- **Completed**: 2 (9.5%)
 - **In Progress**: 0
-- **Not Started**: 20
-- **Current Word Count**: 34,777 / 100,000+ (34.8%)
+- **Not Started**: 19
+- **Current Word Count**: 39,548 / 100,000+ (39.5%)
 
 ### Chapter Progress
 *This section will be auto-updated by the post-tool-use hook when you run `/tocToChapters`*
@@ -46,7 +46,7 @@ Readers will gain a unified framework for understanding how minds (biological an
 | 06 | Predictive Brains, Budgeted Attention | 🔍 Revised | 5,114 | 2025-10-17 |
 | 07 | Helpful Misrepresentations | ✅ Complete | 4,847 | 2025-10-18 |
 | 08 | Schemas, Frames, and Scripts | 📋 Outlined | 111 | 2025-10-17 |
-| 09 | Symbols and Narratives | 📋 Outlined | 119 | 2025-10-17 |
+| 09 | Symbols and Narratives | ✅ Complete | 4,890 | 2025-10-18 |
 | 10 | Institutions and Dashboards | 📋 Outlined | 117 | 2025-10-17 |
 | 11 | Curiosity and Epistemic Value | 📋 Outlined | 114 | 2025-10-17 |
 | 12 | Degeneracy and Redundancy | 📋 Outlined | 105 | 2025-10-17 |
@@ -103,6 +103,8 @@ Readers will gain a unified framework for understanding how minds (biological an
 - **TODO placeholders**: 0 items
 
 ### Recent Activity
+- 2025-10-18: Chapter 9 completed (4,890 words)
+- 2025-10-18: Chapter 7 completed (4,847 words)
 - 2025-10-11: Chapter 1 drafted (4,385 words) and style-checked
 - 2025-10-10: Chapter 1 brainstorm completed
 - 2025-10-10: All 21 chapter files created

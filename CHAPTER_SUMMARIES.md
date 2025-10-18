@@ -217,4 +217,33 @@ Individual distortions scale to schemas, frames, and scripts—abstract template
 
 ---
 
+## Chapter 9: Symbols and Narratives
+**Status**: ✅ Complete | **Words**: 4,890
+
+### Summary
+Symbols enable displacement (reference to absences) and compositional recombination (novel meanings from finite elements); narratives compress causal structure into transmissible sequences; both are rate-distortion solutions under cultural transmission bottlenecks that enable cognitive expansion but can fail via semantic drift, frame-lock, and over-compression.
+
+### Key Concepts Introduced
+- **Displacement**: Ability to refer to things absent in space and time; distinguishes human language from animal signals (Hockett 1960)
+- **Second-order symbolic reference**: Meaning derives from relational networks among symbols, not direct co-occurrence with referents (Deacon 1997)
+- **Compositionality**: Meaning of complex expressions derived from constituent meanings plus combinatorial structure; enables infinite generativity from finite lexicon (Fodor 1975, Partee 1984)
+- **Transmission bottleneck**: Limited data available for learning across generations; drives evolution of compositional structure (Kirby et al. 2008)
+- **External symbolic storage**: Writing and notation externalize memory, overcoming biological limits; enables cumulative cultural knowledge (Donald 1991, Clark & Chalmers 1998)
+- **Schema-driven reconstruction**: Memory actively rebuilds narratives through cultural templates rather than passively storing (Bartlett 1932)
+- **Story grammar**: Hierarchical causal structure (agent-goal-obstacle-outcome) that survives transmission better than surface details
+- **Archetypal motifs**: Recurring narrative elements with high transmission fidelity; cognitively salient compression patterns, not universal laws (Campbell 1949, critiqued)
+- **Conceptual metaphor**: Abstract concepts grounded in embodied sensorimotor domains; time-via-space, argument-via-war (Lakoff & Johnson 1980)
+
+### Major Examples
+- **Sumerian cuneiform evolution**: First writing for accounting (~3200 BCE); compression from 1,500 to 600 signs via phonetic principle; demonstrates external storage and rate-distortion optimization
+- **Bartlett's "War of the Ghosts"**: Schema-driven memory reconstruction; British students systematically distorted Native American tale to fit European narrative logic (levelling, sharpening, rationalization)
+- **Kirby's iterated learning experiments**: Compositional structure emerges in artificial languages across 5-10 generations under transmission bottlenecks; demonstrates compositionality as adaptive response to learning constraints
+- **SCAN benchmark failures**: Neural networks achieve 99%+ accuracy on trained combinations but 0% on novel compositional generalizations; shows systematicity is computationally hard despite human ease
+- **Time-space metaphors**: Cross-cultural evidence that abstract temporal reasoning grounded in spatial sensorimotor experience; Casasanto's mirror-reading experiment reverses mental timeline
+
+### Transition Out
+Chapter 10 extends symbolic compression to institutions—roles, rules, dashboards, procedures—as coordination compressions that align collective action. If symbols externalize memory, institutions externalize decision structures. The same rate-distortion logic applies: metrics compress dynamics; KPIs enable tracking; SOPs tokenize expertise. But institutional compressions face higher stakes: Goodhart's Law, bureaucratic rigidity, coordination failures at scale.
+
+---
+
 *This file should be updated via `/completeChapter N` after each chapter is finalized.*
