@@ -55,6 +55,8 @@ Read only these files:
 
 Create `brainstorms/chapter-[N]-brainstorm.md`:
 
+**IMPORTANT: Keep brainstorm under 6-8k tokens total.** Be focused and concise.
+
 ### 1. Core Thesis
 ONE key insight this chapter delivers (1-2 sentences)
 

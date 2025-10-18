@@ -67,6 +67,8 @@ Research Chapter $1: "[CHAPTER TITLE from TOC]"
 - Strong concrete examples
 - Practical measures
 
+**Brainstorm constraints**: Keep brainstorm file under 6-8k tokens. Be focused and concise.
+
 **Report back**: SUMMARY ONLY (location, source count, example count, confidence, gaps, ready status)
 ```
 

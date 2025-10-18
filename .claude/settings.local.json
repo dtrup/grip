@@ -30,7 +30,15 @@
       "SlashCommand(/completeChapter 3)",
       "SlashCommand(/completeChapter 4)",
       "SlashCommand(/completeChapter 5)",
-      "SlashCommand(/completeChapter 6)"
+      "SlashCommand(/completeChapter 6)",
+      "WebFetch(domain:www.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:www.frontiersin.org)",
+      "Bash(for file in /mnt/d/projects/2025/grip/chapters/chapter-*.md)",
+      "Bash(do wc -w \"$file\")",
+      "Bash(awk:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)"
     ],
     "deny": [],
     "ask": []

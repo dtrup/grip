@@ -9,8 +9,8 @@ url: "https://dtrup.github.io"
 markdown: kramdown
 theme: minima
 
-# Disable header navigation
-header_pages: []
+# Disable header navigation completely
+header_pages: false
 
 # Kramdown settings
 kramdown:

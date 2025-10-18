@@ -28,10 +28,10 @@ Readers will gain a unified framework for understanding how minds (biological an
 
 ### Overall Stats
 - **Total Chapters**: 21 (20 chapters + Coda)
-- **Completed**: 0 (0%)
-- **In Progress**: 1
+- **Completed**: 1 (4.8%)
+- **In Progress**: 0
 - **Not Started**: 20
-- **Current Word Count**: 4,385 / 100,000+ (4.4%)
+- **Current Word Count**: 34,777 / 100,000+ (34.8%)
 
 ### Chapter Progress
 *This section will be auto-updated by the post-tool-use hook when you run `/tocToChapters`*
@@ -44,7 +44,7 @@ Readers will gain a unified framework for understanding how minds (biological an
 | 04 | Neutral Stances, Convergent Functions | 🔍 Revised | 4,781 | 2025-10-17 |
 | 05 | Rate–Distortion Life | 🔍 Revised | 4,516 | 2025-10-17 |
 | 06 | Predictive Brains, Budgeted Attention | 🔍 Revised | 5,114 | 2025-10-17 |
-| 07 | Helpful Misrepresentations | 📋 Outlined | 108 | 2025-10-17 |
+| 07 | Helpful Misrepresentations | ✅ Complete | 4,847 | 2025-10-18 |
 | 08 | Schemas, Frames, and Scripts | 📋 Outlined | 111 | 2025-10-17 |
 | 09 | Symbols and Narratives | 📋 Outlined | 119 | 2025-10-17 |
 | 10 | Institutions and Dashboards | 📋 Outlined | 117 | 2025-10-17 |

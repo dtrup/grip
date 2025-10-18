@@ -1,3 +1,9 @@
+---
+layout: default
+title: Chapter Summaries
+nav_exclude: true
+---
+
 # Chapter Summaries - Narrative Continuity Tracker
 
 This file provides **narrative context** for subagents when writing/researching subsequent chapters. Each summary captures the core argument, key examples, and transitions.
@@ -163,9 +169,51 @@ Chapter 7 asks: when is distortion adaptive? We've established that brains compr
 ---
 
 ## Chapter 7: Helpful Misrepresentations
-**Status**: 📋 Outlined | **Words**: 108
+**Status**: ✅ Complete | **Words**: 4,847
 
-[Not yet written - awaiting preparation]
+### Summary
+Systematic distortions of reality—threat-bias, categorical sharpening, action-biased perception, temporal discounting—are not perceptual failures but adaptive compressions. Under constraints (time, energy, stakes), optimal control often requires misrepresentation. The distortion coefficient is calibrated by asymmetric error costs: when false negatives are costlier than false positives, over-detection is rational. These distortions are implemented via threshold shifts in drift-diffusion, sparse coding in neural energy budgets, and precision allocation in attention under constraints. Helpful misrepresentations can fail when constraints change (calibration failure) or when compression becomes rigid (frame-lock).
+
+### Major Sections
+- **Opening Hook**: Baseball catch and the gaze heuristic—crude distortion that outperforms explicit physics
+- **Adaptive Distortion Framework**: Rate-distortion with asymmetric error costs; compression that pushes toward action-relevant errors
+- **Visual Illusions as Compression**: Motion aftereffect (vigilance enhancement), size constancy with value-weighting
+- **Categorical Perception Under Pressure**: VOT boundary sharpens under time pressure; medical diagnosis shortcuts
+- **Threat-Biased Perception**: Emotional Stroop; hijacked attention; ancestral calibration in modern contexts
+- **Action-Biased Perception**: Intentional stance; geometric shapes perceived as agents; effort inference in dance
+- **Compression Mechanisms**: Time pressure lowering thresholds, energy budgets forcing sparse coding, attention allocation under constraints
+- **Failure Modes**: Frame-lock (stereotype rigidity), over-compression (information scarcity), calibration failure (ancestral vs. modern costs)
+- **Measures & Tests**: Speed-accuracy trade-off (drift-diffusion *a*), ROC curves (threshold shifts), precision estimates from neural data, frame-switch costs, rate-distortion frontiers
+- **Forward Link**: Transition to schemas as social compression; how individual distortions scale to cultural templates
+
+### Key Concepts
+- **Helpful misrepresentation**: Systematic distortion that improves control despite reducing correspondence with truth
+- **Asymmetric error costs**: False negatives vs. false positives carry different consequences; optimal thresholds shift accordingly
+- **Gaze heuristic**: Maintains constant visual angle; crude but effective under noise and time pressure
+- **Threat-bias**: Liberal detection threshold reflects evolutionary asymmetry where missed threats >> false alarms
+- **Frame-lock**: Compressed model becomes rigid; disconfirming evidence distorted to fit existing frame
+- **Calibration failure**: Ancestral distortions become maladaptive when constraints or costs change
+
+### Major Examples
+- Baseball catch / gaze heuristic (450+ studies; outfielders maintain angle, not trajectory)
+- Motion aftereffect / waterfall illusion (motion-detector fatigue; vigilance enhancement)
+- Size constancy (coin vs. moon; value-weighted compression)
+- Categorical perception / VOT boundary (voice onset time sharpens under time pressure)
+- Emotional Stroop (threat words hijack attention despite identical visual properties)
+- Intentional motion (geometric shapes perceived as agents; Heider & Simmel 1944)
+- Threat-ROC shift (high stakes → rightward curve; false alarms increase)
+- Frame-lock / stereotypes (resistance to disconfirming evidence)
+- Temporal discounting (hyperbolic; ancestral optimization becomes modern liability)
+- Radiological diagnosis (over-compression under time pressure; asymmetric false-negative cost)
+
+### Transition to Chapter 8
+Individual distortions scale to schemas, frames, and scripts—abstract templates that package helpful misrepresentations into transmissible form. A restaurant schema compresses a complex sequence into a script, enabling rapid navigation. But schemas can also become prisons. When entire cultures lock into particular frames and treat them as veridicality rather than compression, rigidity and resistance to change follow.
+
+### Key Forward Connections
+- Chapter 5 (Rate-Distortion Life): Distortion measures are task-weighted; asymmetric error costs set thresholds
+- Chapter 6 (Predictive Brains): Precision-weighted gain control implements threshold shifts
+- Chapter 8 (Schemas, Frames, Scripts): Scales distortion from perception to abstract templates
+- Chapter 14 (Formal Spine): Lagrangian formalization shows asymmetric error costs as λ-weights
 
 ---
 
