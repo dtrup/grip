@@ -53,9 +53,12 @@ Read TOC.md and create the complete project structure with individual chapter fi
 ```
 
 Also create **index.md** for GitHub Pages with:
+- **CRITICAL**: Start with YAML front matter: `---\nlayout: default\ntitle: Home\n---`
 - Book title and author
-- Table of contents with links to completed chapters  
+- Table of contents with links to completed chapters
 - Progress indicator showing completion status
 - Hypothesis commenting enabled
+
+**IMPORTANT**: Without YAML front matter, Jekyll will NOT process the file to HTML and GitHub Pages will fail with 404 errors.
 
 Focus on clean structure that sets up the entire workflow.
