@@ -15,6 +15,9 @@ Agents gain **grip** on a complex world by building, revising, and sharing **com
 ### Progress
 0 of 21 chapters complete (0%)
 
+### [📖 Read Chapter Summaries](CHAPTER_SUMMARIES.html)
+*Track the narrative arc and key concepts as chapters develop*
+
 ---
 
 ## Table of Contents

@@ -34,7 +34,6 @@ exclude:
   - SDK_FEATURES.md
   - PUBLISHING.md
   - BOOK_SUMMARY.md
-  - CHAPTER_SUMMARIES.md
   - TOC.md
   - book.config.json
   - style-guide.md
@@ -49,7 +48,10 @@ collections:
 # Defaults
 defaults:
   - scope:
-      path: ""
-      type: "chapters"
+      path: "chapters"
     values:
-      layout: "page"
+      layout: "chapter"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
