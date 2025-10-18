@@ -1,0 +1,49 @@
+# Site settings
+title: "Grip: A Transcendental Aesthetics of the Psyche"
+description: "From World Constraints to Fitness Interfaces to Cultural Intelligence"
+author: dtp
+baseurl: "/grip"
+url: "https://dtrup.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Kramdown settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+
+# Include/Exclude files
+include:
+  - index.md
+  - chapters
+  - brainstorms
+
+exclude:
+  - .claude
+  - scripts
+  - README.md
+  - CLAUDE.md
+  - PROJECT.md
+  - CONTRIBUTING.md
+  - SDK_FEATURES.md
+  - PUBLISHING.md
+  - book.config.json
+  - style-guide.md
+  - outlines
+
+# Collections (if you want to use them for chapters)
+collections:
+  chapters:
+    output: true
+    permalink: /chapters/:name
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "chapters"
+    values:
+      layout: "page"
