@@ -1,0 +1,44 @@
+---
+layout: nil
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      {%- if page.title -%}
+        {{ page.title | escape }}
+      {%- else -%}
+        {{ site.title | escape }}
+      {%- endif -%}
+    </title>
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <style>
+      /* Hard-disable any theme nav or auto TOCs leaking into pages */
+      .site-nav, .site-nav * { display: none !important; }
+      #markdown-toc, .markdown-toc, nav.toc, .toc, .toc-list { display: none !important; }
+    </style>
+  </head>
+  <body>
+    {%- comment -%}
+    Use our custom header (no navigation)
+    {%- endcomment -%}
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- if site.google_analytics and jekyll.environment == 'production' -%}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {%- endif -%}
+  </body>
+  </html>
+
