@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # Grip: A Transcendental Aesthetics of the Psyche
 
 **By dtp**
