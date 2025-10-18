@@ -19,12 +19,8 @@ kramdown:
   hard_wrap: false
 
 # Include/Exclude files
-include:
-  - index.md
-  - chapters
-  - brainstorms
-
 exclude:
+  - brainstorms
   - .claude
   - scripts
   - README.md
@@ -38,12 +34,6 @@ exclude:
   - book.config.json
   - style-guide.md
   - outlines
-
-# Collections (if you want to use them for chapters)
-collections:
-  chapters:
-    output: true
-    permalink: /chapters/:name
 
 # Defaults
 defaults:
