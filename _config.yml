@@ -8,6 +8,7 @@ url: "https://dtrup.github.io"
 # Build settings
 markdown: kramdown
 theme: minima
+# Force rebuild
 
 # Disable header navigation completely - empty array means show nothing
 header_pages: []
