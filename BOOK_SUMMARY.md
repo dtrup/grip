@@ -1,6 +1,6 @@
 # Grip: A Transcendental Aesthetics of the Psyche - Progress Dashboard
 
-> **Last Updated**: 2025-10-18 | **Status**: Active Development | **Progress**: 39.5%
+> **Last Updated**: 2025-10-19 | **Status**: Active Development | **Progress**: 45.4%
 
 ## Project Overview
 - **Title**: Grip: A Transcendental Aesthetics of the Psyche
@@ -28,36 +28,36 @@ Readers will gain a unified framework for understanding how minds (biological an
 
 ### Overall Stats
 - **Total Chapters**: 21 (20 chapters + Coda)
-- **Completed**: 2 (9.5%)
+- **Completed**: 3 (14.3%)
 - **In Progress**: 0
-- **Not Started**: 19
-- **Current Word Count**: 39,548 / 100,000+ (39.5%)
+- **Not Started**: 18
+- **Current Word Count**: 45,387 / 100,000+ (45.4%)
 
 ### Chapter Progress
 *This section will be auto-updated by the post-tool-use hook when you run `/tocToChapters`*
 
 | # | Chapter | Status | Words | Last Updated |
 |---|---------|--------|-------|-------------|
-| 01 | The Problem of Grip | 🔍 Revised | 4,377 | 2025-10-17 |
-| 02 | Constraints Before Categories | 🔍 Revised | 3,904 | 2025-10-17 |
-| 03 | Embodiment and Affordances | 🔍 Revised | 5,085 | 2025-10-17 |
-| 04 | Neutral Stances, Convergent Functions | 🔍 Revised | 4,781 | 2025-10-17 |
-| 05 | Rate–Distortion Life | 🔍 Revised | 4,516 | 2025-10-17 |
-| 06 | Predictive Brains, Budgeted Attention | 🔍 Revised | 5,114 | 2025-10-17 |
-| 07 | Helpful Misrepresentations | ✅ Complete | 4,847 | 2025-10-18 |
-| 08 | Schemas, Frames, and Scripts | 📋 Outlined | 111 | 2025-10-17 |
-| 09 | Symbols and Narratives | ✅ Complete | 4,890 | 2025-10-18 |
-| 10 | Institutions and Dashboards | 📋 Outlined | 117 | 2025-10-17 |
-| 11 | Curiosity and Epistemic Value | 📋 Outlined | 114 | 2025-10-17 |
-| 12 | Degeneracy and Redundancy | 📋 Outlined | 105 | 2025-10-17 |
-| 13 | Scaffolding and Collective Cognition | 📋 Outlined | 120 | 2025-10-17 |
-| 14 | The Formal Spine | 📋 Outlined | 122 | 2025-10-17 |
-| 15 | The Architecture Table (Full Spec) | 📋 Outlined | 104 | 2025-10-17 |
-| 16 | The Empirical Playbook | 📋 Outlined | 118 | 2025-10-17 |
-| 17 | Case Threads Across Layers | ⬜ Not Started | 94 | 2025-10-17 |
-| 18 | From Payoffs to Oughts | 📋 Outlined | 115 | 2025-10-17 |
-| 19 | Mechanism Design for Minds and Markets | 📋 Outlined | 108 | 2025-10-17 |
-| 20 | Design Patterns: Therapy, Education, UX, AI | 📋 Outlined | 130 | 2025-10-17 |
+| 01 | The Problem of Grip | 🔍 Revised | 4,605 | 2025-10-19 |
+| 02 | Constraints Before Categories | 🔍 Revised | 4,153 | 2025-10-19 |
+| 03 | Embodiment and Affordances | 🔍 Revised | 5,391 | 2025-10-19 |
+| 04 | Neutral Stances, Convergent Functions | 🔍 Revised | 5,097 | 2025-10-19 |
+| 05 | Rate–Distortion Life | 🔍 Revised | 4,870 | 2025-10-19 |
+| 06 | Predictive Brains, Budgeted Attention | 🔍 Revised | 5,473 | 2025-10-19 |
+| 07 | Helpful Misrepresentations | ✅ Complete | 4,389 | 2025-10-19 |
+| 08 | Schemas, Frames, and Scripts | ✅ Complete | 3,903 | 2025-10-19 |
+| 09 | Symbols and Narratives | ✅ Complete | 4,879 | 2025-10-19 |
+| 10 | Institutions and Dashboards | ✅ Complete | 5,938 | 2025-10-19 |
+| 11 | Curiosity and Epistemic Value | 📋 Outlined | 114 | 2025-10-19 |
+| 12 | Degeneracy and Redundancy | 📋 Outlined | 105 | 2025-10-19 |
+| 13 | Scaffolding and Collective Cognition | 📋 Outlined | 120 | 2025-10-19 |
+| 14 | The Formal Spine | 📋 Outlined | 122 | 2025-10-19 |
+| 15 | The Architecture Table (Full Spec) | 📋 Outlined | 104 | 2025-10-19 |
+| 16 | The Empirical Playbook | 📋 Outlined | 118 | 2025-10-19 |
+| 17 | Case Threads Across Layers | ⬜ Not Started | 94 | 2025-10-19 |
+| 18 | From Payoffs to Oughts | 📋 Outlined | 115 | 2025-10-19 |
+| 19 | Mechanism Design for Minds and Markets | 📋 Outlined | 108 | 2025-10-19 |
+| 20 | Design Patterns: Therapy, Education, UX, AI | 📋 Outlined | 130 | 2025-10-19 |
 | Coda | Reflexivity and Revision | ⬜ Not Started | 0 | - |
 
 ### Status Icons
@@ -103,6 +103,7 @@ Readers will gain a unified framework for understanding how minds (biological an
 - **TODO placeholders**: 0 items
 
 ### Recent Activity
+- 2025-10-19: Chapter 10 completed (5,956 words)
 - 2025-10-18: Chapter 9 completed (4,890 words)
 - 2025-10-18: Chapter 7 completed (4,847 words)
 - 2025-10-11: Chapter 1 drafted (4,385 words) and style-checked

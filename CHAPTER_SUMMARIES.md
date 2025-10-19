@@ -217,6 +217,37 @@ Individual distortions scale to schemas, frames, and scripts—abstract template
 
 ---
 
+## Chapter 8: Schemas, Frames, and Scripts
+**Status**: ✅ Complete | **Words**: 3,903
+
+### Summary
+Schemas, frames, and scripts are reusable templates that compress recurring problem types into fast interpretation and action patterns, trading flexibility for speed under time and working-memory constraints; they function as hierarchical priors (Chapter 6) implementing rate-distortion compression (Chapter 5), but become maladaptive when environments shift or when rigidity (frame-lock, prototype bias) prevents updating.
+
+### Key Concepts Introduced
+- **Schema**: Mental template organizing knowledge about recurring situations with variable slots and structural constraints (Bartlett 1932, Rumelhart & Ortony 1977)
+- **Frame**: Interpretive lens selecting task-relevant features and normative expectations (Goffman 1974)
+- **Script**: Temporally ordered schema specifying expected action sequences (Schank & Abelson 1977)
+- **Prototype**: Central category exemplar processed faster and remembered better than boundary cases (Rosch 1973, 1978)
+- **Chunking**: Compression of sequential steps into single cognitive units, reducing working-memory load
+- **Frame-lock**: Rigidity where disconfirming evidence is reinterpreted to fit active schema rather than prompting revision
+- **Frame rotation**: Costly reinterpretation under alternative schema when current frame misfits reality
+- **Cultural schemas**: Shared folk theories structuring reasoning across domains (D'Andrade 1987, 1995)
+- **Conceptual metaphor**: Abstract domains understood via sensorimotor schemas (Lakoff & Johnson 1980)
+
+### Major Examples Used
+- **Restaurant script**: Automatic slot-filling (order, eat, pay, leave); enables inference (payment assumed even if unstated); fails on atypical formats (food trucks, fine dining)
+- **Chess masters' pattern recognition**: 50,000 chunks compress board positions; 1-second recall for real games, no advantage on random arrangements (de Groot 1965, Chase & Simon 1973)
+- **Radiological diagnosis**: Prototype bias yields 30% faster recognition of typical pneumonia but 25% higher miss rate on atypical cases (Norman et al. 1992, 2009)
+- **Bartlett's "War of the Ghosts"**: Schema-driven memory reconstruction (levelling, sharpening, rationalization) toward cultural prototypes
+- **N400 to semantic violations**: "He spread butter on his *socks*" triggers larger negative ERP than expected "bread" (Kutas & Hillyard 1984); automatic schema instantiation
+- **Children's gender-schema distortions**: Girl playing with truck misremembered as having gender-typical toy (Liben & Signorella 1980)
+- **Cultural folk theories**: American "thoughts as entities" vs. Ifaluk "thoughts as situational responses" (D'Andrade 1987); different therapeutic implications
+
+### Transition Out
+Individual schemas scale to shared cultural forms when externalized as symbols and narratives. Chapter 9 examines how displacement (reference to absences) and compositionality (novel meanings from finite elements) enable symbols to compress and transmit causal structure across minds and generations, creating collective compressions that coordinate action but can also enforce rigidity through archetypal frames and narrative templates that resist counter-stories.
+
+---
+
 ## Chapter 9: Symbols and Narratives
 **Status**: ✅ Complete | **Words**: 4,890
 
@@ -243,6 +274,33 @@ Symbols enable displacement (reference to absences) and compositional recombinat
 
 ### Transition Out
 Chapter 10 extends symbolic compression to institutions—roles, rules, dashboards, procedures—as coordination compressions that align collective action. If symbols externalize memory, institutions externalize decision structures. The same rate-distortion logic applies: metrics compress dynamics; KPIs enable tracking; SOPs tokenize expertise. But institutional compressions face higher stakes: Goodhart's Law, bureaucratic rigidity, coordination failures at scale.
+
+---
+
+## Chapter 10: Institutions and Dashboards
+**Status**: ✅ Complete | **Words**: 5,956
+
+### Summary
+Institutions compress coordination through standardized roles, rules, and metrics, enabling collective action at scale; dashboards compress organizational state into attention-steering KPIs. But when metrics become targets (Goodhart's Law), optimization pressure decouples proxies from goals, producing gaming, fraud, and systematic distortion. Expansion mechanisms—counter-metrics, audits, metric rotation—restore validity by detecting divergence and preventing entrenchment, though at costs in cognitive load and coordination overhead.
+
+### Key Concepts Introduced
+- **Institutions as coordination compressions**: Roles, rules, SOPs, and artifacts reduce transaction costs by creating common knowledge and standardized interfaces (Coase, Williamson, Weber)
+- **Dashboards as attention allocation**: KPIs function as organizational precision weights, steering executive attention toward measured dimensions and away from unmeasured ones (Few, Kaplan & Norton)
+- **Goodhart's Law**: When a measure becomes a target, it ceases to be a good measure; optimization pressure exploits the gap between proxy and goal
+- **Campbell's Law**: Quantitative social indicators subject to decision-making pressure corrupt the processes they monitor
+- **Legitimacy as enforcement cost-reducer**: Internalized norms align incentives with rules, reducing need for costly monitoring and sanctions (DiMaggio & Powell)
+- **Counter-metrics**: Complementary indicators detect gaming (e.g., FCR + AHT, not AHT alone)
+- **Audit trails and metric rotation**: Expansion mechanisms that verify data integrity and prevent gaming entrenchment
+
+### Major Examples Used
+- **Atlanta Public Schools cheating scandal (2009)**: 256,779 erasures (odds 1 in 10^15); 178 educators implicated; criminal convictions for racketeering under NCLB pressure
+- **Wells Fargo cross-selling scandal (2011-2016)**: 2 million fraudulent accounts to hit cross-sell ratio targets; $185M fines; metric eliminated post-scandal
+- **CompStat crime statistics gaming (2010s)**: Crime downgrading, victim dissuasion, data manipulation under accountability pressure; 3,500 additional minor arrests, zero serious crime reduction
+- **No Child Left Behind curriculum narrowing (2002-2015)**: 71% of schools reduced non-tested subjects; teaching-to-test focused on "bubble kids"; limited gains in 4th-grade math, none in reading
+- **Aviation checklists and medical pathways**: Expertise compression via SOPs; external symbolic storage enables knowledge transfer and consistency
+
+### Transition Out
+If institutions compress coordination but risk Goodhart drift, how do organizations *learn* when their compressions fail and update their models? The next chapter examines organizational learning, adaptation, and meta-cognitive mechanisms for recognizing when dashboards no longer represent reality—extending rate-distortion theory to the dynamics of belief revision and frame-switching under uncertainty.
 
 ---
 
