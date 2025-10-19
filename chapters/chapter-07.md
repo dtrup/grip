@@ -1,3 +1,8 @@
+---
+layout: chapter
+title: "Chapter 7: Helpful Misrepresentations"
+---
+
 # Chapter 7: Helpful Misrepresentations
 
 > **Target**: 4,750 words | **Status**: ✅ Complete | **Word Count**: 4,847 | **Completed**: 2025-10-18
