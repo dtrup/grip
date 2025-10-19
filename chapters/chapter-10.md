@@ -1,3 +1,8 @@
+---
+layout: chapter
+title: "Chapter 10: Institutions and Dashboards"
+---
+
 # Chapter 10: Institutions and Dashboards
 
 > **Target**: 4,750 words | **Status**: Not Started | **Last Updated**: 2025-10-10

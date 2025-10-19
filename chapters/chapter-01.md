@@ -1,3 +1,8 @@
+---
+layout: chapter
+title: "Chapter 1: The Problem of Grip"
+---
+
 # Chapter 1: The Problem of Grip
 
 > **Target**: 4,750 words | **Status**: Drafted | **Last Updated**: 2025-10-11

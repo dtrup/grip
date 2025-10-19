@@ -1,3 +1,8 @@
+---
+layout: chapter
+title: "Chapter 16: The Empirical Playbook"
+---
+
 # Chapter 16: The Empirical Playbook
 
 > **Target**: 4,750 words | **Status**: Not Started | **Last Updated**: 2025-10-10

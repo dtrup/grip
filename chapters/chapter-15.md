@@ -1,3 +1,8 @@
+---
+layout: chapter
+title: "Chapter 15: The Architecture Table (Full Spec)"
+---
+
 # Chapter 15: The Architecture Table (Full Spec)
 
 > **Target**: 4,750 words | **Status**: Not Started | **Last Updated**: 2025-10-10

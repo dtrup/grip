@@ -1,3 +1,8 @@
+---
+layout: chapter
+title: "Chapter 18: From Payoffs to Oughts"
+---
+
 # Chapter 18: From Payoffs to Oughts
 
 > **Target**: 4,750 words | **Status**: Not Started | **Last Updated**: 2025-10-10

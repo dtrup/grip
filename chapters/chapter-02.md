@@ -1,3 +1,8 @@
+---
+layout: chapter
+title: "Chapter 2: Constraints Before Categories"
+---
+
 # Chapter 2: Constraints Before Categories
 
 > **Target**: 4,750 words | **Status**: Drafted | **Last Updated**: 2025-10-15

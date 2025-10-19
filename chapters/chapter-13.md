@@ -1,3 +1,8 @@
+---
+layout: chapter
+title: "Chapter 13: Scaffolding and Collective Cognition"
+---
+
 # Chapter 13: Scaffolding and Collective Cognition
 
 > **Target**: 4,750 words | **Status**: Not Started | **Last Updated**: 2025-10-10

@@ -1,3 +1,8 @@
+---
+layout: chapter
+title: "Chapter 19: Mechanism Design for Minds and Markets"
+---
+
 # Chapter 19: Mechanism Design for Minds and Markets
 
 > **Target**: 4,750 words | **Status**: Not Started | **Last Updated**: 2025-10-10

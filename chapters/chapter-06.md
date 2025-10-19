@@ -1,3 +1,8 @@
+---
+layout: chapter
+title: "Chapter 6: Predictive Brains, Budgeted Attention"
+---
+
 # Chapter 6: Predictive Brains, Budgeted Attention
 
 > **Target**: 4,750 words | **Status**: Drafted | **Last Updated**: 2025-10-17

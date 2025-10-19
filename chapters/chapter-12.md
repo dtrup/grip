@@ -1,3 +1,8 @@
+---
+layout: chapter
+title: "Chapter 12: Degeneracy and Redundancy"
+---
+
 # Chapter 12: Degeneracy and Redundancy
 
 > **Target**: 4,750 words | **Status**: Not Started | **Last Updated**: 2025-10-10

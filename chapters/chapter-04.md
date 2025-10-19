@@ -1,8 +1,6 @@
 ---
+layout: chapter
 title: "Chapter 4: Neutral Stances, Convergent Functions"
-chapter: 4
-status: drafted
-word_count: 4850
 ---
 
 # Chapter 4: Neutral Stances, Convergent Functions

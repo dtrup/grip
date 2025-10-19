@@ -1,8 +1,6 @@
 ---
+layout: chapter
 title: "Chapter 3: Embodiment and Affordances"
-chapter: 3
-status: drafted
-word_count: 4750
 ---
 
 # Chapter 3: Embodiment and Affordances

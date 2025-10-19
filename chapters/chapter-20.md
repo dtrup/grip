@@ -1,3 +1,8 @@
+---
+layout: chapter
+title: "Chapter 20: Design Patterns: Therapy, Education, UX, AI"
+---
+
 # Chapter 20: Design Patterns: Therapy, Education, UX, AI
 
 > **Target**: 4,750 words | **Status**: Not Started | **Last Updated**: 2025-10-10

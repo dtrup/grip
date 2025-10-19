@@ -1,3 +1,8 @@
+---
+layout: chapter
+title: "Chapter 5: Rate-Distortion Life"
+---
+
 # Chapter 5: Rate–Distortion Life
 
 You're hiking alone when something moves in the periphery—dark, coiled, near your boot. Your body reacts before thought: heart spikes, weight shifts, hand reaches. A second later you see it's a curved twig, shadow-draped. Relief floods in.

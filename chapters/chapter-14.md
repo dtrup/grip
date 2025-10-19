@@ -1,3 +1,8 @@
+---
+layout: chapter
+title: "Chapter 14: The Formal Spine"
+---
+
 # Chapter 14: The Formal Spine
 
 > **Target**: 4,750 words | **Status**: Not Started | **Last Updated**: 2025-10-10
