@@ -100,6 +100,27 @@ Professional book writing template with **4 specialized subagent experts** and a
 
 ---
 
+## 📄 Jekyll/GitHub Pages Requirements
+
+**CRITICAL**: All chapter files MUST have proper YAML front matter for GitHub Pages to render them as HTML.
+
+**Required front matter** (at very beginning of file):
+```yaml
+---
+layout: chapter
+title: "Chapter X: [Title]"
+---
+```
+
+**Why this matters**: Without front matter, Jekyll serves raw markdown instead of rendered HTML. The `layout: chapter` field is required for the template system.
+
+**When to add**:
+- `/tocToChapters` should create files with front matter
+- `/writeChapter` must ensure front matter exists
+- `/completeChapter` must verify front matter
+
+---
+
 ## ✅ DO / ❌ DON'T
 
 ### DO:
@@ -108,6 +129,7 @@ Professional book writing template with **4 specialized subagent experts** and a
 - Use `/completeChapter` or `/updateProgress` to sync BOOK_SUMMARY.md
 - Reference `@style-guide.md` for voice
 - Maintain quality standards
+- **ALWAYS add Jekyll front matter** to chapter files (layout + title)
 
 ### DON'T:
 - Manually edit BOOK_SUMMARY.md (use commands instead)
@@ -115,6 +137,7 @@ Professional book writing template with **4 specialized subagent experts** and a
 - Ignore subagent feedback (especially style-editor)
 - Rush quality checks (consistency > speed)
 - Copy file contents into prompts (reference by @filename)
+- **Skip Jekyll front matter** (breaks GitHub Pages rendering)
 
 ---
 

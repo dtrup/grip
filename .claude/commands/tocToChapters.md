@@ -35,7 +35,15 @@ Read TOC.md and create the complete project structure with individual chapter fi
    - Report total chapter count and targets
 
 ## Chapter Template Structure
+
+**CRITICAL**: Every chapter file MUST start with Jekyll YAML front matter for GitHub Pages:
+
 ```markdown
+---
+layout: chapter
+title: "Chapter X: [Title from TOC]"
+---
+
 # Chapter X: [Title from TOC]
 
 > **Target**: [N] words | **Status**: Not Started | **Last Updated**: [Date]
@@ -51,6 +59,12 @@ Read TOC.md and create the complete project structure with individual chapter fi
 
 <script src="https://hypothes.is/embed.js" async></script>
 ```
+
+**Front matter requirements**:
+- Must be at line 1 (very beginning)
+- Must include `layout: chapter` (for template)
+- Must include `title` with chapter number and name
+- Without this, GitHub Pages will serve raw markdown instead of HTML
 
 Also create **index.md** for GitHub Pages with:
 - **CRITICAL**: Start with YAML front matter: `---\nlayout: default\ntitle: Home\n---`

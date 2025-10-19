@@ -68,4 +68,19 @@ The chapter-writer subagent will:
 
 The chapter-writer has been trained on your book's specific voice, style guide, and quality standards. It will handle the writing process autonomously while maintaining consistency with your previous chapters.
 
+**CRITICAL: Jekyll Front Matter Requirement**
+
+The chapter-writer MUST ensure the chapter file starts with proper Jekyll YAML front matter:
+```yaml
+---
+layout: chapter
+title: "Chapter X: [Title]"
+---
+```
+
+This is required for GitHub Pages to render the chapter as HTML instead of raw markdown. The front matter must be:
+- At the very beginning of the file (line 1)
+- Include `layout: chapter` (required for template)
+- Include `title` with chapter number and title
+
 After writing, consider running `/styleCheck $1` to have the style-editor subagent review for voice consistency.

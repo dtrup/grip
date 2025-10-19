@@ -1,3 +1,8 @@
+---
+layout: chapter
+title: "Coda: Reflexivity and Revision"
+---
+
 # Coda: Reflexivity and Revision
 
 > **Target**: 4,750 words | **Status**: Not Started | **Last Updated**: 2025-10-10

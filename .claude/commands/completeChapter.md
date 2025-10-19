@@ -19,11 +19,18 @@ Mark chapter as complete and update all project tracking.
 2. **Update progress tracking** (CRITICAL - Do these in order):
 
    a. **Update chapter file** (Edit tool):
-   - Add/update YAML front matter with:
+   - Ensure proper Jekyll front matter exists at the top:
      ```yaml
+     ---
+     layout: chapter
+     title: "Chapter X: [Title]"
      status: complete
      completed_date: [YYYY-MM-DD]
+     ---
      ```
+   - If front matter is missing `layout: chapter`, add it
+   - Add/update `status: complete` and `completed_date`
+   - This ensures GitHub Pages renders the chapter properly
 
    b. **Run progress sync script** (Bash):
    ```bash

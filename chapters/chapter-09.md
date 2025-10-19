@@ -1,4 +1,6 @@
 ---
+layout: chapter
+title: "Chapter 9: Symbols and Narratives"
 status: complete
 completed_date: 2025-10-18
 word_count: 4890
